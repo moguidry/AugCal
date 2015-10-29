@@ -2,7 +2,7 @@ data/src/main/java/com/cms/Article/Exceptions/DatabaseConnectionMapper.java.i
 data/pom.xml.i
 data/src/test/java/testing/stuff/ArticleBusinessLogicTest.java.i
 data/src/main/java/com/cms/Article/Database/Session_Factory.java.i
-data/src/main/java/com/cms/Article/Exceptions/UnauthorizedUserMapper.java.i
+data/src/main/java/com/cms/Article/Exceptions/GenericException.java.i
 data/src/main/java/com/cms/Article/Exceptions/DatabaseConnectionError.java.i
 data/src/main/java/com/cms/Article/Exceptions/ArticleExceptionMapper.java.i
 data/.hgtags.i
@@ -10,7 +10,7 @@ data/props.properties.i
 data/src/main/resources/hibernate.properties.i
 data/src/test/java/testing/stuff/TestUserRoles.java.i
 data/src/main/java/com/aug/site/cms/Models/Article.java.i
-data/src/main/java/com/cms/Article/User/User.java.i
+data/src/main/java/com/cms/Article/Models/Article.hbm.xml.i
 data/src/main/java/Generalizations and Optimizations.txt.i
 data/.settings/org.eclipse.wst.jsdt.ui.superType.name.i
 data/src/main/java/com/aug/site/cms/Routers/ArticleRouter.java.i
@@ -20,8 +20,8 @@ data/src/main/java/com/cms/Article/BusinessLogic/UserRoleVerification.java.i
 data/.settings/org.eclipse.m2e.core.prefs.i
 data/src/main/java/com/cms/Article/Database/DateInterceptor.java.i
 data/src/main/java/com/cms/Article/Endpoints/ArticleEndpoints.java.i
-data/src/main/java/com/aug/site/cms/ServiceImpls/RawHtmlPlugin.java.i
-data/src/main/java/com/cms/Article/Models/Article.hbm.xml.i
+data/src/main/java/properties.dtd.i
+data/src/main/java/com/cms/Article/User/User.java.i
 data/src/main/java/com/cms/Article/Exceptions/UserNotFoundException.java.i
 data/src/main/java/com/cms/Article/Endpoints/ArticleEndpointsImpl.java.i
 data/src/main/java/com/cms/Article/Resource/ArticleResource.java.i
@@ -42,7 +42,7 @@ data/src/main/resources/properties.dtd.i
 data/src/main/resources/hibernate.cfg.xml.i
 data/src/main/java/com/cms/Article/Service/ArticleService.java.i
 data/src/main/java/com/cms/Article/Exceptions/UnauthorizedUser.java.i
-data/src/main/java/properties.dtd.i
+data/src/main/java/com/aug/site/cms/ServiceImpls/RawHtmlPlugin.java.i
 data/src/main/java/com/aug/site/cms/Routers/RolesRouter.java.i
 data/src/main/java/com/aug/site/cms/Factories/DBFactory.java.i
 data/src/test/java/testing/stuff/Session_FactoryTest.java.i
@@ -52,7 +52,7 @@ data/src/main/java/com/cms/Article/Endpoints/PublicArticlesRouter.java.i
 data/src/main/java/com/cms/Article/Service/UseRolesVerification.java.i
 data/src/main/java/com/cms/Article/MyResource.java.i
 data/src/main/java/com/cms/Article/Exceptions/NoTitleExceptionMapper.java.i
-data/.hgignore.i
+data/src/main/java/com/aug/site/cms/Constants.java.i
 data/src/main/java/com/aug/site/cms/ServiceImpls/AuthorizeFilter.java.i
 data/.settings/org.eclipse.wst.common.project.facet.core.prefs.xml.i
 data/.settings/org.eclipse.wst.common.component.i
@@ -70,16 +70,15 @@ data/.settings/org.eclipse.wst.common.project.facet.core.xml.i
 data/.project.i
 data/src/main/java/com/cms/Article/User/UserImplementation.java.i
 data/src/main/java/com/cms/Article/Exceptions/IllegalStateExc.java.i
-data/src/main/java/com/cms/Article/Exceptions/GenericException.java.i
+data/src/main/java/com/cms/Article/Exceptions/UnauthorizedUserMapper.java.i
 data/.hgflow.i
 data/src/main/resources/hibernate.properties.template.i
 data/src/main/resources/Article.hbm.xml.i
 data/src/main/java/com/aug/site/cms/ServiceInterfaces/ArticleRepositoryService.java.i
-data/src/main/java/com/aug/site/cal/Models/Event.java.i
 data/src/main/java/com/cms/Article/Models/ErrorMessage.java.i
 data/Generalizations and Optimizations.txt.i
 data/src/main/java/com/aug/site/cms/Routers/RSSRouter.java.i
-data/src/main/java/com/aug/site/cms/Constants.java.i
+data/.hgignore.i
 data/src/main/java/com/cms/Article/Models/User.java.i
 data/src/main/webapp/META-INF/context.xml.i
 data/src/main/java/com/cms/Article/Database/MyInterceptor.java.i

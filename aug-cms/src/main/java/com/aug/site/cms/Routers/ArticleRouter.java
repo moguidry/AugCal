@@ -1,7 +1,7 @@
 package com.aug.site.cms.Routers;
 
 import com.aug.site.cms.Constants;
-import com.aug.site.cms.Models.Article;
+import com.aug.site.cal.Models.Article;
 import com.aug.site.cms.ServiceInterfaces.ArticleRepositoryService;
 import javax.inject.Inject;
 import javax.ws.rs.Consumes;

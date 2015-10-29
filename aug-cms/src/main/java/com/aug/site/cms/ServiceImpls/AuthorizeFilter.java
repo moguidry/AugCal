@@ -6,7 +6,7 @@
 package com.aug.site.cms.ServiceImpls;
 
 import com.aug.site.cms.Constants;
-import com.aug.site.cms.Models.User;
+import com.aug.site.cal.Models.User;
 import java.io.IOException;
 import java.security.Principal;
 import javax.annotation.Priority;

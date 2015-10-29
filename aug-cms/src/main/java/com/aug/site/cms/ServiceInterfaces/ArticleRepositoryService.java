@@ -1,7 +1,7 @@
 package com.aug.site.cms.ServiceInterfaces;
 
-import com.aug.site.cms.Models.Article;
-import com.aug.site.cms.Models.LightArticle;
+import com.aug.site.cal.Models.Article;
+import com.aug.site.cal.Models.LightArticle;
 import java.util.List;
 
 public interface ArticleRepositoryService {

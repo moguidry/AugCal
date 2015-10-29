@@ -1,7 +1,7 @@
 package com.aug.site.cms.ServiceImpls;
 
-import com.aug.site.cms.Models.Article;
-import com.aug.site.cms.Models.LightArticle;
+import com.aug.site.cal.Models.Article;
+import com.aug.site.cal.Models.LightArticle;
 import com.aug.site.cms.ServiceInterfaces.ArticleRepositoryService;
 import java.util.Date;
 import java.util.LinkedList;

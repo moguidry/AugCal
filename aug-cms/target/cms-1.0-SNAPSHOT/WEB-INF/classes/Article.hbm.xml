@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 23, 2015 4:13:53 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+  <class name="com.aug.site.cms.Models.Article" table="article">
+    <id name="id" type="int">
+      <column name="cmsid" unique="true"/>
+      <generator class="increment"/>
+    </id>
+    <property generated="never" lazy="false" name="title" type="java.lang.String">
+      <column name="cmstitle"/>
+    </property>
+    <property generated="never" lazy="false" name="content" type="java.lang.String">
+      <column name="cmscontent"/>
+    </property>
+    <property generated="never" lazy="false" name="dateCreated" type="java.util.Date">
+      <column name="cmsdatecreated"/>
+    </property>
+    <property generated="never" lazy="false" name="lastModified" type="java.util.Date">
+      <column name="cmsLastmodified"/>
+    </property>
+    <property generated="never" lazy="false" name="active" type="boolean">
+      <column name="cmsIsactive"/>
+    </property>
+    <property generated="never" lazy="false" name="authorId" type="java.lang.String">
+      <column name="cmsauthorid"/>
+    </property>
+    <property generated="never" lazy="false" name="miniContent" type="java.lang.String">
+      <column name="cmsminicontent"/>
+    </property>
+  </class>
+</hibernate-mapping>

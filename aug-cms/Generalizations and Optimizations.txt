@@ -1,0 +1,28 @@
+Need to centralize hard-coded string literals into a properties:
+
+
+Difference between RPC and web service  ?
+Networking tech.
+Socket, IP, 
+
+Java Review and knowledge gain.
+
+Deep copy and shallow copy of Java Objects
+String literal initialization; String a = "hello"
+String object initialization; String a = new String("hello");
+
+Identity equality (==)
+Hashcode and equals in an object.
+HashTable and HashMap difference.
+Java collection Interfaces.
+TreeMap.
+Comparable and comparator difference.
+
+Concurrency in Java. (Java 7 and Java 8).
+
+Limitations of Jax-ws and Jax-rs
+
+Garbage collection and memory leak (eg: circular memory reference)
+JDBC driver types
+
+Hibernate Global Timestamp.

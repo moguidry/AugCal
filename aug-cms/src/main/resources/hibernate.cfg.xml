@@ -2,6 +2,6 @@
 <!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
   <session-factory>
-    <mapping class="com.cms.Article.Models.Article" resource="Article.hbm.xml"/>
+    <mapping class="com.aug.site.cal.Modesl.Event" resource="Event.hbm.xml"/>
   </session-factory>
 </hibernate-configuration>

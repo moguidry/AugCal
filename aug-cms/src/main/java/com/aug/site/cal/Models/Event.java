@@ -85,7 +85,7 @@ public class Event {
 
 
 	@JsonIgnore
-	public String getPretty() {
+	public String s() {
 		try {
 			return new Markdown4jProcessor().registerPlugins(new RawHtmlPlugin())
 					.process(this.description);
